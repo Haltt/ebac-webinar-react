@@ -1,0 +1,10 @@
+[
+    { "id": 1, "nome": "Crônicas Saxônicas - Livro 1", "imagem": "assets/cronicassaxonicas.jpg" },
+    { "id": 2, "nome": "As Crônicas de Starbuck - Livro 1", "imagem": "assets/rebelde.jpg" },
+    { "id": 3, "nome": "O Arqueiro - Livro 1", "imagem": "assets/arqueiro.jpg" },
+    { "id": 4, "nome": "As Crônicas de Artur - Livro 1", "imagem": "assets/artur.jpg" },
+    { "id": 5, "nome": "Dragon Ball Super - Volume 1", "imagem": "assets/dragonballsuper.jpg" },
+    { "id": 6, "nome": "One Piece - Volume 1", "imagem": "assets/onepiece.jpg" },
+    { "id": 7, "nome": "Bakuman - Volume 1", "imagem": "assets/bakuman.jpg" },
+    { "id": 8, "nome": "Naruto Gold - Volume 1", "imagem": "assets/naruto.jpg" }
+]
