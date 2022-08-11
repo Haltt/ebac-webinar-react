@@ -4,6 +4,9 @@ import { Card, CardImg, Col, Container, Row } from "react-bootstrap";
 import JSONDATA from './Livros.json';
 
 export default function Home() {
+  const Main = styled.main `
+  `;
+
   const Header = styled.header`    
     color: #fff;
   `;
@@ -16,6 +19,7 @@ export default function Home() {
 
   return (
     <>
+    <body className="d-flex flex-column h-100">
       <Container className="p-0 mb-3" fluid>
         <Row className="p-0">
           <Col>
@@ -69,7 +73,14 @@ export default function Home() {
               </Col>
             );
           })}
-        </Row>
-      </Container></>
+        </Row>        
+      </Container>
+      <footer class="footer py-3 mt-5 bg-light">
+          <div class="container-fluid text-center">
+            <span class="text-muted"><a href="https://linktr.ee/wandersonteixeira" target="_blank">Wanderson Teixeira</a></span>
+          </div>
+        </footer>
+    </body>
+    </>
   );
 }
